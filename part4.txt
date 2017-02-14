@@ -1,0 +1,11 @@
+2.4.0 :001 > dockingstation = DockingStation.new
+NameError: uninitialized constant DockingStation
+	from (irb):1
+	from /Users/sophiemclean/.rvm/rubies/ruby-2.4.0/bin/irb:11:in `<main>'
+
+
+The type of error is a name error.
+The path where the error happened is /Users/sophiemclean/.rvm/rubies/ruby-2.4.0/bin/irb:11:in
+The line the error happened on is 1
+The error means that the class DockingStation doesn’t exist/ ruby doesn’t know what it is.
+The solution to the problem is to create the class DockingStation
