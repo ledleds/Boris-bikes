@@ -1,0 +1,3 @@
+Person 
+Docking station <- release-bike -> a bike
+Bike <- working -> true/false
