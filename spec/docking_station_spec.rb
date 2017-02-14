@@ -1,6 +1,5 @@
+require "dockingstation"
 
-describe "DockingStation" do
-  it "releases the bike" do
-    expect(DockingStation).to eq "release bike"
-  end
+describe DockingStation do
+
 end
