@@ -32,4 +32,8 @@ describe DockingStation do
     bike = Bike.new
     expect{dockingstation.dock(bike)}.to raise_error("The dock is full")
   end
+
+  it "(dock) has a capacity of 20 bikes" do
+    expect(dockingstation.capacity).to eq 20
+  end
 end
