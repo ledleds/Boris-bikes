@@ -8,13 +8,10 @@ class DockingStation
   end
 
   def release_bike
-    if @bike_counter > 0
+    fail "No bikes are avaliable" unless @bike_counter > 0
       @bike = Bike.new
       @bike_counter  =- 1
       return @bike
-    else
-      raise "No bikes are avaliable"
-    end
   end
 
   def dock(outside_bike)

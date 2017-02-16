@@ -19,6 +19,5 @@ describe DockingStation do
     #I expect it to raise an error if there are no bikes avaliable
     dockingstation.release_bike
     expect{dockingstation.release_bike}.to raise_error("No bikes are avaliable")
-
   end
 end
